@@ -28,7 +28,7 @@ def app():
 
 def main():
     st.title("Visualization of Satellite images(Demo):satellite_antenna:")
-    st.markdown("*데모 버전*입니다.. :sob: 디버깅 별로 못 했어요,, \n 그래서 오류가 발생할 수 있어요.  \n꼭 **지정된 형식**에 맞추어 입력해주세요.")
+    st.markdown("*데모 버전*입니다.. :sob:  \n 그래서 오류가 발생할 수 있어요.  \n꼭 **지정된 형식**에 맞추어 입력해주세요.")
 
     start_date_input = st.text_input("시작 날짜 입력 (YYYY-MM-DD 형식):")
     end_date_input = st.text_input("종료 날짜 입력 (YYYY-MM-DD 형식):")
